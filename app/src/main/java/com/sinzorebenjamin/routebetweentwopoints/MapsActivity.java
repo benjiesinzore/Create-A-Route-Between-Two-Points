@@ -45,7 +45,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
 
-        mOrigin = new LatLng(-1.132586, 36.974481);
+        mOrigin = new LatLng(-1.1386398, 36.9743776);
         mDestination = new LatLng(0.0074415, 37.0722303);
         requestPermission(Manifest.permission.ACCESS_FINE_LOCATION);
 
